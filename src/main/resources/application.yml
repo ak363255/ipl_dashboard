@@ -6,6 +6,7 @@ spring:
     password: GuxdAdYpcY
     url: jdbc:mysql://remotemysql.com:3306/RRt9ZPkVul
     driver-class-name: com.mysql.cj.jdbc.Driver
+    platform : mysql
   jpa:
     hibernate:
       ddl-auto: update
