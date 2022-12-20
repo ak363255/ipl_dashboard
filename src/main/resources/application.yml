@@ -15,9 +15,11 @@ spring:
         dialect: org.hibernate.dialect.MySQL55Dialect
 
   batch:
-
     job:
       enabled: false
     jdbc:
       initialize-schema: ALWAYS
+  sql:
+    init:
+      mode: ALWAYS
 
